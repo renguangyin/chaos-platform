@@ -26,9 +26,6 @@ public class BladeStatusTest {
 
         CustomObjectsApi apiInstance = new CustomObjectsApi();
 
-        V1ObjectMeta v1ObjectMeta = new V1ObjectMeta();
-        v1ObjectMeta.setName(IdUtil.fastSimpleUUID());
-
         String group = "chaosblade.io";
         String version = "v1alpha1";
         String plural = "chaosblades";
@@ -37,7 +34,7 @@ public class BladeStatusTest {
                 group,
                 version,
                 plural,
-                "5513555975f8485cbeec5c5edfc252f2",
+                "9b4a4b877d224ae6958e4c07b11e2a13",
                 new ApiCallback() {
                     @Override
                     public void onFailure(ApiException e, int statusCode, Map responseHeaders) {
